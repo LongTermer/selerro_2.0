@@ -6,7 +6,7 @@ Selerro is a full stack ecommerce app built with professional, clean and mobile 
 
 ## Technologies Used
 
-It was built using the FERN Stack - Firebase, Express, React, Redux & Node.js + Sass & Material UI for styling.
+It was built using the FERN Stack - Firebase, Express, React, Redux & Node.js + Sass for styling.
 
 ## App Info
 
@@ -14,7 +14,7 @@ It was built using the FERN Stack - Firebase, Express, React, Redux & Node.js + 
 Mihailo Maksa
 
 ### Version
-1.1.0
+2.0.0
 
 ### License
 This project is licensed under the MIT License
