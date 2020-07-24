@@ -1,0 +1,19 @@
+import React from 'react';
+import './collection.styles.scss';
+import CollectionItem from '../../components/collection-item/collection-item.component.jsx';
+
+const CollectionPage = ({ collection }) => {
+  const { title, items } = collection;
+  return (
+    <div className='collection-page'>
+      <h2 className='title'>{title.toUpperCase()}</h2>
+      <div className='items'>
+        {items.map((item) => (
+          <CollectionItem key={item.id} item={item} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default React.memo(CollectionPage);
